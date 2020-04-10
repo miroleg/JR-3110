@@ -13,7 +13,7 @@ public class Archiver {
                 operation = askOperation();
                 CommandExecutor.execute(operation);
             } catch (WrongZipFileException e) {
-                ConsoleHelper.writeMessage("Вы не выбрали файл архива или выбрали неверный файл.");
+                ConsoleHelper.writeMessage("Дружище, Вы не выбрали файл архива или выбрали неверный файл.");
             } catch (Exception e) {
                 ConsoleHelper.writeMessage("Произошла ошибка. Проверьте введенные данные.");
             }
